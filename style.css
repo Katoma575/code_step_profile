@@ -1,2 +1,49 @@
-header {
+.wrapper {
+  height: 60px;
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+header img {
+  height: 36px;
+}
+
+nav li {
+  display: inline-block;
+  margin: auto 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.photo img {
+  height: 600px;
+  width: 100%;
+  max-width: 1920px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  box-sizing: inherit;
+}
+
+.about {
+}
+
+.section-title {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+.sub-about {
+  display: flex;
+}
+.icon img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
